@@ -866,3 +866,15 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #4AB7F9;
 }
+
+
+/* addition css */
+#aboutHsinchuText{
+	padding-top:30%;	
+}
+
+@media(max-width:992px) {
+	#aboutHsinchuText{
+		padding-top:30px;	
+	}
+}
