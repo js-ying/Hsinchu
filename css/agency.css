@@ -346,24 +346,24 @@ section h3.section-subheading {
     }
 }
 
-.service-heading {
+.food-heading {
     margin: 15px 0;
     text-transform: none;
 }
 
-#portfolio .portfolio-item {
+#hotSpot .hotSpot-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#hotSpot .hotSpot-item .hotSpot-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#hotSpot .hotSpot-item .hotSpot-link .hotSpot-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -374,11 +374,11 @@ section h3.section-subheading {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#hotSpot .hotSpot-item .hotSpot-link .hotSpot-hover:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#hotSpot .hotSpot-item .hotSpot-link .hotSpot-hover .hotSpot-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -389,16 +389,16 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#hotSpot .hotSpot-item .hotSpot-link .hotSpot-hover .hotSpot-hover-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#hotSpot .hotSpot-item .hotSpot-link .hotSpot-hover .hotSpot-hover-content h3,
+#hotSpot .hotSpot-item .hotSpot-link .hotSpot-hover .hotSpot-hover-content h4 {
     margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#hotSpot .hotSpot-item .hotSpot-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -406,24 +406,24 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#hotSpot .hotSpot-item .hotSpot-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#hotSpot .hotSpot-item .hotSpot-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-#portfolio * {
+#hotSpot * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #hotSpot .hotSpot-item {
         margin: 0 0 30px;
     }
 }
@@ -652,68 +652,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+section#googleMap {
     background-color: #222;
     background-image: url();
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#googleMap .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#googleMap .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#googleMap .form-group input,
+section#googleMap .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#googleMap .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#googleMap .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#googleMap .form-control:focus {
     border-color: #4AB7F9;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#googleMap::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#googleMap:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#googleMap::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#googleMap:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#googleMap .text-danger {
     color: #e74c3c;
 }
 
@@ -769,7 +769,7 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.portfolio-modal .modal-content {
+.hotSpot-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -780,32 +780,32 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.hotSpot-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content p {
+.hotSpot-modal .modal-content p {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content p.item-intro {
+.hotSpot-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-.portfolio-modal .modal-content ul.list-inline {
+.hotSpot-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+.hotSpot-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .close-modal {
+.hotSpot-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -815,11 +815,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.hotSpot-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.hotSpot-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -830,7 +830,7 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.hotSpot-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -840,7 +840,7 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
-.portfolio-modal .modal-backdrop {
+.hotSpot-modal .modal-backdrop {
     display: none;
     opacity: 0;
 }
@@ -869,12 +869,12 @@ body {
 
 
 /* addition css */
-#aboutHsinchuText{
+#geographyText{
 	padding-top:30%;	
 }
 
 @media(max-width:992px) {
-	#aboutHsinchuText{
+	#geographyText{
 		padding-top:30px;	
 	}
 }
