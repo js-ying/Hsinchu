@@ -423,15 +423,7 @@
     </section>
 
     <!-- googleMap Section -->
-    <section id="googleMap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">地圖導覽</h2>
-                    <h3 class="section-subheading text-muted">利用GoogleMap為您導覽這些景點。</h3>
-                </div>
-            </div>
-        </div>
+    <section class="map">
     </section>
 
     <footer>
@@ -901,10 +893,37 @@
 
     <!-- googleMap Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
+    
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    
+    
+    <script src="js/jquery.tinyMap.js"></script>
+    
+    <script>
+    	$('.map').tinyMap({
+		'center': ['24.717410','121.101445'],
+		'zoom': 11,
+		'marker': [
+			{'addr': ['24.801643','120.971696'], 'text': '<a href="#hotSpotModal1" class="hotSpot-link" data-toggle="modal"><strong>新竹火車站</strong></a>'},
+			{'addr': ['24.804460','120.970267'], 'text': '<strong>迎新東門城</strong>'},
+			{'addr': ['24.804499','120.965515'], 'text': '<strong>新竹都城隍廟</strong>'},
+			{'addr': ['24.808897','120.974497'], 'text': '<strong>Big City遠東巨城購物中心</strong>'},
+			{'addr': ['24.711301','121.136672'], 'text': '<strong>內灣老街</strong>'},
+			{'addr': ['24.699786','121.056414'], 'text': '<strong>北埔老街</strong>'},
+			{'addr': ['24.797996','120.984474'], 'text': '<strong>十八尖山</strong>'},
+			{'addr': ['24.563476','121.140170'], 'text': '<strong>霞喀羅古道</strong>'},
+			{'addr': ['24.775701','120.974145'], 'text': '<strong>青草湖</strong>'},
+			{'addr': ['24.848773','120.925910'], 'text': '<strong>南寮魚港 - 十七公里海岸</strong>'},
+			{'addr': ['24.799684','120.980663'], 'text': '<strong>新竹市立動物園</strong>'},
+			{'addr': ['24.834687','120.993368'], 'text': '<strong>六福村</strong>'}
+		]
+	});
+	
+		$(window).resize(function() {
+		  $('.map').css('width:100%');
+		});
+    </script>
 
 </body>
 
