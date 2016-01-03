@@ -157,7 +157,7 @@
                                     <h4 class="subheading">日治時代</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">1920年9月合新竹、桃園支廳為新竹州，州治設於新竹郡。</p>
+                                    <p class="text-muted">乙未戰爭中，新竹成為抵抗日軍接收北台灣的重要據點。將新竹劃歸台北縣，並置新竹支廳管理。1920年9月合新竹、桃園支廳為新竹州，州治設於新竹郡。</p>
                                 </div>
                             </div>
                         </li>
@@ -203,28 +203,30 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <span class="fa-stack fa-4x">                        
                         <img class="img-circle img-responsive" src="img/food/1.jpg" alt="">
                     </span>
                     <h4 class="service-heading">米粉</h4>
                     <p class="text-muted">「新竹米粉」在日據以前，因為新竹風有利於吹乾又粗又濕的「水粉」，所以聞名全省；光復後，又以能夠製作又細又Ｑ的「炊粉」，獨到的技術和品質才能打響名號、知名海內外。</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <span class="fa-stack fa-4x">                          
                         <img class="img-circle img-responsive" src="img/food/2.jpg" alt="">                    
                     </span>
                     <h4 class="service-heading">貢丸</h4>
                     <p class="text-muted">新竹的貢丸是以木棒或優質機器「摃」出來的，而新竹貢丸的材料必須用剛宰殺不久的新鮮「溫體豬肉（活肉）」製作，利用活肉新鮮纖維的彈性所做出來貢丸尤其好吃，也因此新竹居民的日常小吃成為台灣有名的新竹特產。</p>
                 </div>
-                <div class="col-md-3">
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
                     <span class="fa-stack fa-4x">
                         <img class="img-circle img-responsive" src="img/food/3.jpg" alt="">
                     </span>
                     <h4 class="service-heading">柿餅</h4>
                     <p class="text-muted">新竹新埔位於東北季風背風側，故冬季的風勢強勢且乾燥，因此很適合柿子的曝曬。柿餅的加工過程十分繁雜且重視技巧，而當地勤儉誠樸的客家聚落正好提供了足夠做柿餅的人力。</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <span class="fa-stack fa-4x">                        
                         <img class="img-circle img-responsive" src="img/food/4.jpg" alt="">
                     </span>
@@ -423,7 +425,13 @@
     </section>
 
     <!-- googleMap Section -->
-    <section class="map">
+    <section id="googleMap">        
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">地圖導覽</h2>
+                <h3 class="section-subheading text-muted">讓您看看這些熱門景點的分佈位置。</h3>
+            </div>
+
+        <div class="map"></div>
     </section>
 
     <footer>
@@ -905,24 +913,24 @@
 		'center': ['24.717410','121.101445'],
 		'zoom': 11,
 		'marker': [
-			{'addr': ['24.801643','120.971696'], 'text': '<a href="#hotSpotModal1" class="hotSpot-link" data-toggle="modal"><strong>新竹火車站</strong></a>'},
-			{'addr': ['24.804460','120.970267'], 'text': '<strong>迎新東門城</strong>'},
-			{'addr': ['24.804499','120.965515'], 'text': '<strong>新竹都城隍廟</strong>'},
-			{'addr': ['24.808897','120.974497'], 'text': '<strong>Big City遠東巨城購物中心</strong>'},
-			{'addr': ['24.711301','121.136672'], 'text': '<strong>內灣老街</strong>'},
-			{'addr': ['24.699786','121.056414'], 'text': '<strong>北埔老街</strong>'},
-			{'addr': ['24.797996','120.984474'], 'text': '<strong>十八尖山</strong>'},
-			{'addr': ['24.563476','121.140170'], 'text': '<strong>霞喀羅古道</strong>'},
-			{'addr': ['24.775701','120.974145'], 'text': '<strong>青草湖</strong>'},
-			{'addr': ['24.848773','120.925910'], 'text': '<strong>南寮魚港 - 十七公里海岸</strong>'},
-			{'addr': ['24.799684','120.980663'], 'text': '<strong>新竹市立動物園</strong>'},
-			{'addr': ['24.834687','120.993368'], 'text': '<strong>六福村</strong>'}
+			{'addr': ['24.801643','120.971696'], 'text': '<center><a href="#hotSpotModal1" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>新竹火車站</strong></a><p class="text-muted">全台歷史最悠久的火車站</p><img src="img/hotSpot/1p.jpg" width="160px"></center>'},
+			{'addr': ['24.804460','120.970267'], 'text': '<center><a href="#hotSpotModal2" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>迎新東門城</strong></a><p class="text-muted">結合傳統與現代科技的市民廣場</p><img src="img/hotSpot/2p.jpg" width="160px"></center>'},
+			{'addr': ['24.804499','120.965515'], 'text': '<center><a href="#hotSpotModal3" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>新竹都城隍廟</strong></a><p class="text-muted">又稱新竹城隍廟，屬三級古蹟</p><img src="img/hotSpot/3p.jpg" width="160px"></center>'},
+			{'addr': ['24.808897','120.974497'], 'text': '<center><a href="#hotSpotModal4" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>Big City遠東巨城購物中心</strong></a><p class="text-muted">新竹市區內的大型購物中心</p><img src="img/hotSpot/4p.jpg" width="160px"></center>'},
+			{'addr': ['24.711301','121.136672'], 'text': '<center><a href="#hotSpotModal5" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>內灣老街</strong></a><p class="text-muted">濃濃回憶與人情味的客家庄</p><img src="img/hotSpot/5p.jpg" width="160px"></center>'},
+			{'addr': ['24.699786','121.056414'], 'text': '<center><a href="#hotSpotModal6" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>北埔老街</strong></a><p class="text-muted">客家美食與東方美人茶</p><img src="img/hotSpot/6p.jpg" width="160px"></center>'},
+			{'addr': ['24.797996','120.984474'], 'text': '<center><a href="#hotSpotModal7" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>十八尖山</strong></a><p class="text-muted">新竹市民最愛運動休閒的小山丘</p><img src="img/hotSpot/7p.jpg" width="160px"></center>'},
+			{'addr': ['24.563476','121.140170'], 'text': '<center><a href="#hotSpotModal8" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>霞喀羅古道</strong></a><p class="text-muted">四季各有不同變化的幽幽古道</p><img src="img/hotSpot/8p.jpg" width="160px"></center>'},
+			{'addr': ['24.775701','120.974145'], 'text': '<center><a href="#hotSpotModal9" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>青草湖</strong></a><p class="text-muted">灌溉、觀光、兼具防洪之多功能水庫</p><img src="img/hotSpot/9p.jpg" width="160px"></center>'},
+			{'addr': ['24.848773','120.925910'], 'text': '<center><a href="#hotSpotModal10" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>南寮魚港 - 十七公里海岸</strong></a><p class="text-muted">最美麗的觀光休閒盛地</p><img src="img/hotSpot/10p.jpg" width="160px"></center>'},
+			{'addr': ['24.799684','120.980663'], 'text': '<center><a href="#hotSpotModal11" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>新竹市立動物園</strong></a><p class="text-muted">全台歷史最悠久的動物園</p><img src="img/hotSpot/11p.jpg" width="160px"></center>'},
+			{'addr': ['24.834687','120.993368'], 'text': '<center><a href="#hotSpotModal12" class="hotSpot-link" data-toggle="modal" style="font-size:18px"><strong>六福村</strong></a><p class="text-muted">著名的複合式主題遊樂園</p><img src="img/hotSpot/12p.jpg" width="160px"></center>'}
 		]
 	});
 	
-		$(window).resize(function() {
-		  $('.map').css('width:100%');
-		});
+    
+    $('.close-modal').hide();
+
     </script>
 
 </body>
