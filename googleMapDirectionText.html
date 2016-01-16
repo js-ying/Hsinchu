@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Displaying text directions with <code>setPanel()</code></title>
+    <link rel="stylesheet" type="text/css" href="css/googleMap.css">
+</head>
+<body> 
+    <div id="floating-panel">
+        <strong>Start:</strong>
+        <select id="start">
+            <option value="元智大學">元智大學</option>
+        </select>
+        <br>
+        <strong>End:</strong>
+        <select id="end">
+            <option value="新竹火車站">新竹火車站</option>
+            <option value="迎曦東門城">迎曦東門城</option>
+            <option value="新竹市北區中山路75號">新竹都城隍廟</option>
+            <option value="新竹市東區中央路229號">Big City遠東巨城購物中心</option>
+            <option value="新竹縣橫山鄉">內灣老街</option>
+            <option value="北埔老街">北埔老街</option>
+            <option value="十八尖山">十八尖山</option>
+            <option value="新竹縣五峰鄉清石道路">霞喀羅古道</option>
+            <option value="新竹市東區青峰路">青草湖</option>
+            <option value="新竹市北區南寮漁港">南寮魚港 - 十七公里海岸</option>
+            <option value="新竹市立動物園">新竹市立動物園</option>
+            <option value="新竹縣竹北市仁安里拱子溝60號">六福村</option>
+        </select>
+    </div>
+
+    <div id="right-panel"></div>
+    
+    <div id="map"></div>
+    
+<script>
+
+function initMap() {
+    var directionsDisplay = new google.maps.DirectionsRenderer;
+    var directionsService = new google.maps.DirectionsService;
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 11,
+      center: {lat: 24.717410, lng: 121.101445}
+    });
+    directionsDisplay.setMap(map);
+    directionsDisplay.setPanel(document.getElementById('right-panel'));
+
+    var control = document.getElementById('floating-panel');
+    control.style.display = 'block';
+    map.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
+
+    var onChangeHandler = function() {
+      calculateAndDisplayRoute(directionsService, directionsDisplay);
+    };
+    document.getElementById('start').addEventListener('change', onChangeHandler);
+    document.getElementById('end').addEventListener('change', onChangeHandler);
+}
+
+function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+    var start = document.getElementById('start').value;
+    var end = document.getElementById('end').value;
+    directionsService.route({
+        origin: start,
+        destination: end,
+        travelMode: google.maps.TravelMode.DRIVING
+    }, 
+    function(response, status) {
+        if (status === google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+        }
+        else {
+            window.alert('Directions request failed due to ' + status);
+        }
+    });
+}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjRz8zNHf-wilTnK1ZreVLhpnrFDcvu9E&signed_in=true&callback=initMap" async defer></script>
+
+</body>
+</html>
