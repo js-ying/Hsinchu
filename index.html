@@ -971,6 +971,8 @@
 		    document.getElementById('start').addEventListener('change', onChangeHandler);
 		    document.getElementById('end').addEventListener('change', onChangeHandler);
 
+		    onChangeHandler();
+
 		    //resise時googleMap Center
 		    google.maps.event.addDomListener(window, "resize", function() {
 			    var center = map.getCenter();
