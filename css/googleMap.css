@@ -1,54 +1,60 @@
 #map {
-  float: left;
-  height: 400px;
-  width: 65%;
+	float: left;
+	height: 400px;
+	width: 65%;
 }
+
 #floating-panel {
-  position: absolute;
-  top: 150px !important; 
-  left: 1% !important;
-  z-index: 5 !important;
-  background-color: #fff;
-  padding: 5px;
-  border: 1px solid #999;
-  text-align: left;
-  font-family: 'Roboto','sans-serif';
-  line-height: 30px;
-  font-size: 14px;
-  box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+	position: absolute;
+	top: 150px !important; 
+	left: 1% !important;
+	z-index: 5 !important;
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #999;
+	text-align: left;
+	font-family: 'Roboto','sans-serif';
+	line-height: 30px;
+	font-size: 14px;
+	box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
 }
 
 #right-panel {
-  float: right;
-  height: 400px;
-  width: 33%;
-  line-height: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  overflow: auto;
-  font-family: 'Roboto','sans-serif';
+	float: right;
+	height: 400px;
+	width: 33%;
+	line-height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: auto;
+	font-family: 'Roboto','sans-serif';
 }
 
 #right-panel select, #right-panel input {
-  font-size: 15px;
+	font-size: 15px;
 }
 
 #right-panel select {
-  width: 100%;
+	width: 100%;
 }
 
 #right-panel i {
-  font-size: 12px;
+	font-size: 12px;
+}
+
+#end{
+	width: 80%;
 }
 
 
 @media (max-width:750px) {
   #map {
+  	float: none;
     width: 100%;
   }
 
   #floating-panel {
-    width: 80%;
+    width: 60%;
     top: 300px !important; 
     left: 4% !important;
     z-index: 0 !important;
@@ -59,10 +65,13 @@
 
   #right-panel {
     width: 100%;
-    overflow: visible;
+
   }
 
-  footer{
-    display: none;
+  #start{
+  	width: 70%;  	
+  }
+  #end{
+  	width: 70%;
   }
 }

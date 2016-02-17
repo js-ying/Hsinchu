@@ -1,0 +1,33 @@
+body{
+	font-family: "微軟正黑體";
+}
+
+#RTbutton{
+	position: relative;
+	text-align: right;
+	padding: 30px;
+}
+
+#copyrightPanel{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	width: 45%;
+}
+
+#copyrightPanel h4{
+	font-weight: 700;
+}
+
+#copyrightPanel table{
+	
+}
+
+@media(max-width:768px) {
+	#copyrightPanel{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}

@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
 }
 
 .text-muted {
@@ -52,7 +52,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-weight: 700;
 }
 
@@ -72,7 +72,7 @@ h6 {
 .btn-primary {
     border-color: #4AB7F9;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-weight: 700;
     color: #fff;
     background-color: #4AB7F9;
@@ -123,7 +123,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-size: 14px;
     font-weight: 700;
     color: #000;
@@ -176,8 +176,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
-    color: #4AB7F9;
+    font-family: "微軟正黑體";
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
 .navbar-default .navbar-brand:hover,
@@ -207,10 +208,11 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
 .navbar-default .nav li a:hover,
@@ -266,7 +268,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg-Nanliao.jpg);
+    background-image: url(../img/23396317019_1134469901_o.jpg);
     background-position: center center;
     background-repeat: none;
     height:100%;
@@ -279,11 +281,12 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-size: 22px;
     font-style: ;
     line-height: 22px;
@@ -292,7 +295,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -306,7 +309,8 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+font-family: "微軟正黑體";
         font-size: 40px;
         font-style: ;
         line-height: 40px;
@@ -315,7 +319,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+font-family: "微軟正黑體";
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -335,7 +340,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -414,7 +419,7 @@ section h3.section-subheading {
 
 #hotSpot .hotSpot-item .hotSpot-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-size: 16px;
     font-style: italic;
 }
@@ -653,13 +658,12 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#googleMap {
-    padding:150px 0px 0px 0px;
-    background-image: url();
+section#googleMap {    
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-
+    margin-bottom: 25px;
+    padding: 150px 20px 20px 20px;
 }
 
 section#googleMap .section-heading {
@@ -689,28 +693,28 @@ section#googleMap .form-control:focus {
 
 section#googleMap::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-weight: 700;
     color: #bbb;
 }
 
 section#googleMap:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-weight: 700;
     color: #bbb;
 }
 
 section#googleMap::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-weight: 700;
     color: #bbb;
 }
 
 section#googleMap:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-weight: 700;
     color: #bbb;
 }
@@ -720,14 +724,14 @@ section#googleMap .text-danger {
 }
 
 footer {
-    padding: 38% 0px 20px;
+    padding: 25px 0;
     text-align: center;
 }
 
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     line-height: 40px;
 }
 
@@ -735,7 +739,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     line-height: 40px;
 }
 
@@ -793,7 +797,7 @@ ul.social-buttons li a:active {
 
 .hotSpot-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "微軟正黑體";
     font-size: 16px;
     font-style: italic;
 }
@@ -871,6 +875,15 @@ body {
 
 
 /* addition css */
+#start{
+	height: 25px;
+	width: 80%;
+}
+
+#end{
+	width: 83%;
+}
+
 #geographyText{
 	padding-top:20%;	
 }
