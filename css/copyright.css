@@ -1,5 +1,6 @@
 body{
 	font-family: "微軟正黑體";
+	font-size: 16px;
 }
 
 #RTbutton{
@@ -31,3 +32,10 @@ body{
 		margin-bottom: 20px;
 	}
 }
+
+.jf-active *, .jf-inactive * { /*處理成功或失敗，都以漸變顯示*/
+      -webkit-transition: opacity 1s ease-out;
+      -moz-transition: opacity 1s ease-out;
+      -o-transition: opacity 1s ease-out;
+      transition: opacity 1s ease-out;
+} 

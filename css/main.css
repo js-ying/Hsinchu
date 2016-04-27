@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
+    font-size: 16px;
 }
 
 .text-muted {
@@ -18,12 +19,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -52,7 +53,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-weight: 700;
 }
 
@@ -72,7 +73,7 @@ h6 {
 .btn-primary {
     border-color: #4AB7F9;
     text-transform: uppercase;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-weight: 700;
     color: #fff;
     background-color: #4AB7F9;
@@ -123,7 +124,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-size: 14px;
     font-weight: 700;
     color: #000;
@@ -176,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     color: #fff;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
@@ -208,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -286,7 +287,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-size: 22px;
     font-style: ;
     line-height: 22px;
@@ -295,7 +296,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -310,7 +311,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
 
-font-family: "微軟正黑體";
+font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
         font-size: 40px;
         font-style: ;
         line-height: 40px;
@@ -320,7 +321,7 @@ font-family: "微軟正黑體";
         margin-bottom: 50px;
         text-transform: uppercase;
 
-font-family: "微軟正黑體";
+font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -340,10 +341,10 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "微軟正黑體";
-    font-size: 16px;
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
+    font-size: 20px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 @media(min-width:768px) {
@@ -415,12 +416,13 @@ section h3.section-subheading {
 #hotSpot .hotSpot-item .hotSpot-caption h4 {
     margin: 0;
     text-transform: none;
+    font-size: 20px;
 }
 
 #hotSpot .hotSpot-item .hotSpot-caption p {
     margin: 0;
-    font-family: "微軟正黑體";
-    font-size: 16px;
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
+    font-size: 18px;
     font-style: italic;
 }
 
@@ -693,28 +695,28 @@ section#googleMap .form-control:focus {
 
 section#googleMap::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-weight: 700;
     color: #bbb;
 }
 
 section#googleMap:-moz-placeholder {
     text-transform: uppercase;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-weight: 700;
     color: #bbb;
 }
 
 section#googleMap::-moz-placeholder {
     text-transform: uppercase;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-weight: 700;
     color: #bbb;
 }
 
 section#googleMap:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     font-weight: 700;
     color: #bbb;
 }
@@ -726,12 +728,13 @@ section#googleMap .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    font-size: 18px;
 }
 
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     line-height: 40px;
 }
 
@@ -739,7 +742,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: "微軟正黑體";
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
     line-height: 40px;
 }
 
@@ -787,7 +790,7 @@ ul.social-buttons li a:active {
 }
 
 .hotSpot-modal .modal-content h2 {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size: 3em;
 }
 
@@ -796,10 +799,11 @@ ul.social-buttons li a:active {
 }
 
 .hotSpot-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
-    font-family: "微軟正黑體";
-    font-size: 16px;
+    margin: 5px 0 20px;
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
+    font-size: 20px;
     font-style: italic;
+    font-weight: 600;
 }
 
 .hotSpot-modal .modal-content ul.list-inline {
@@ -885,7 +889,7 @@ body {
 }
 
 #geographyText{
-	padding-top:20%;	
+	padding-top:15%;
 }
 
 @media(max-width:992px) {
@@ -925,3 +929,10 @@ body {
        margin: 0 auto;
     }
 }
+
+.jf-active *, .jf-inactive * { /*處理成功或失敗，都以漸變顯示*/
+      -webkit-transition: opacity 1s ease-out;
+      -moz-transition: opacity 1s ease-out;
+      -o-transition: opacity 1s ease-out;
+      transition: opacity 1s ease-out;
+} 
