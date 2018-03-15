@@ -268,15 +268,20 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    background-color: #69bcee;
     background-attachment: scroll;
-    background-image: url(../img/23396317019_1134469901_o.jpg);
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     height:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+header #loading span{
+    background-color: rgba(0,0,0,.4);
+    padding: 5px 20px;
 }
 
 header .intro-text {
@@ -358,6 +363,53 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+/* Modal */
+.food-modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.food-modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.food-modal .modal-content{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.food-modal .modal-body{
+    width: 80%;
+}
+
+.food-modal img{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.food-modal button{
+    margin: 0 auto;
+    display: block;
+}
+
+@media(max-width:992px) {
+    .food-modal .modal-content{
+        width: 60%;
+    }
+}
+
+@media(max-width:767px) {
+    .food-modal .modal-content{
+        width: 80%;
+    }
+}
+
 #hotSpot .hotSpot-item {
     right: 0;
     margin: 0 0 15px;
@@ -403,6 +455,10 @@ section h3.section-subheading {
 #hotSpot .hotSpot-item .hotSpot-link .hotSpot-hover .hotSpot-hover-content h3,
 #hotSpot .hotSpot-item .hotSpot-link .hotSpot-hover .hotSpot-hover-content h4 {
     margin: 0;
+}
+
+.hotSpot-link img{
+    margin: 0 auto;
 }
 
 #hotSpot .hotSpot-item .hotSpot-caption {
@@ -888,8 +944,17 @@ body {
 	width: 83%;
 }
 
+.head-icon{
+    width: 40px;
+}
+
+#geography .col-md-8{
+    float: none;
+    margin: 0 auto;
+}
+
 #geographyText{
-	padding-top:15%;
+	padding-top:5%;
 }
 
 @media(max-width:992px) {
@@ -926,7 +991,11 @@ body {
 
     .modal-body{
         width: 100%;
-       margin: 0 auto;
+        margin: 0 auto;
+    }
+
+    .close-modal{
+        display: none;
     }
 }
 

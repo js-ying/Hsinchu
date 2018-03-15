@@ -5,8 +5,8 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
+$(function () {
+    $('a.page-scroll').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -20,7 +20,18 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
+var status = 0;
+$('body').on('activate.bs.scrollspy', function () {
+    var activeSection = $(this).find("#li-geography").attr("class");
+
+    if (status == 0 && activeSection == "active") {
+        $('.count').animateNumber({ number: 99 },2500);
+        status = 1;
+    }
+
+});
+
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+$('.navbar-collapse ul li a').click(function () {
     $('.navbar-toggle:visible').click();
 });

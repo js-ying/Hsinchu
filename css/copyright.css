@@ -13,7 +13,7 @@ body{
 	margin: 0 auto;
 	margin-top: 50px;
 	margin-bottom: 100px;
-	width: 45%;
+	width: 60%;
 }
 
 #copyrightPanel h4{
@@ -24,7 +24,7 @@ body{
 	
 }
 
-@media(max-width:768px) {
+@media(max-width:1200px) {
 	#copyrightPanel{
 		width: 90%;
 		margin: 0 auto;
