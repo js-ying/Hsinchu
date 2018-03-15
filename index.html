@@ -455,7 +455,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="list-inline quicklinks">
-                        <li><a href="copyright.html" target="_blank">著作權聲明</a></li>
+                        <li><a href="copyright.html" target="_blank">著作權聲明</a></li> 
+                        <li><a href="https://guand.me" target="_blank">與我聯絡</a></li>
                     </ul>
                 </div>
             </div>
@@ -1030,7 +1031,13 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjRz8zNHf-wilTnK1ZreVLhpnrFDcvu9E&signed_in=true&callback=initMap" async defer></script>
     <script src="js/jquery.animateNumber.min.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48330157-4"></script>
     <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-48330157-4');
 
 		function initMap() {
 		    var directionsDisplay = new google.maps.DirectionsRenderer;
