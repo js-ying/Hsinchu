@@ -1,6 +1,6 @@
 # 在風城的故事
 My Hometown, which is a windy city, Hsinchu.<br>
-[https://guand.me/iHsinchu](https://guand.me/iHsinchu)
+Demo: [https://hsinchu.jsy.tw](https://hsinchu.jsy.tw)
 
 ## 風城：序
 寫在故事最前篇：簡單介紹新竹的地理位置。
