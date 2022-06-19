@@ -25,7 +25,7 @@ $('body').on('activate.bs.scrollspy', function () {
     var activeSection = $(this).find("#li-geography").attr("class");
 
     if (status == 0 && activeSection == "active") {
-        $('.count').animateNumber({ number: 99 },2500);
+        $('.count').animateNumber({ number: 102 },2500);
         status = 1;
     }
 
