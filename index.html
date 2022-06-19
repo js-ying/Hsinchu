@@ -433,12 +433,12 @@
       <h3 class="section-subheading text-muted">帶您快速翻到那一頁。</h3>
     </div>
 
-    <center>
+    <center style="display: none;">
       <div id="map"></div>
     </center>
 
-    <div id="floating-panel">
-      <strong>啟點 :</strong>
+    <div id="floating-panel" style="display: none;">
+      <strong>起點 :</strong>
       <input type="text" id="start" value="300台灣新竹市">
       <br>
       <strong>終點 :</strong>
@@ -458,9 +458,11 @@
       </select>
     </div>
 
-    <div id="right-panel"></div>
+    <div id="right-panel" style="display: none;"></div>
 
-    <div class="row"></div>
+    <div class="row" style="margin-bottom: 3rem;">
+      因應 Googloe API 開始收費，此功能暫時下架。
+    </div>
   </section>
 
   <footer class="bg-light-gray">
@@ -1068,9 +1070,9 @@
   <script src="js/cbpAnimatedHeader.js"></script>
   <script src="js/jqBootstrapValidation.js"></script>
   <script src="js/main.js"></script>
-  <script
+  <!-- <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjRz8zNHf-wilTnK1ZreVLhpnrFDcvu9E&signed_in=true&callback=initMap"
-    async defer></script>
+    async defer></script> -->
   <script src="js/jquery.animateNumber.min.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -1098,7 +1100,7 @@
       directionsDisplay.setPanel(document.getElementById('right-panel'));
 
       var control = document.getElementById('floating-panel');
-      control.style.display = 'block';
+      control.style.display = 'none';
       map.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
 
       var onChangeHandler = function () {
